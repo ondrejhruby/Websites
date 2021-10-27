@@ -1,0 +1,82 @@
+/* 
+    Created on : 31.10.2018, 14:48:20
+    Author     : Jonas Terschlüsen - 3743918 - TIPB_jonasterschlüsen {@code 423121@student.fontys.nl}
+*/
+
+* {
+    margin:  0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font: bold 16px verdana, arial, tahome, sans-serif;
+    text-align: center;
+}
+main {
+    width: 960px;
+    margin: 0 auto 0 auto; /* same as "margin: 0 auto;" */
+    background-color: #eff1f4;
+    color: #000000;
+    /*padding: 30px;*/
+}
+section {
+    height: 500px;
+    width: 960px;
+    /*background-color: black;*/
+    text-align: center;
+    margin: 10px 0px;
+}
+
+/* Item */
+textarea{
+    resize: none;
+}
+
+/* Grids */
+
+.grid-item {
+    /*background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);*/
+    padding: 20px;
+    font-size: 14px;
+    color: red;
+    text-align: center;
+    grid-column: 1 / span 2;
+}
+.grid-item-left{
+    padding: 20px;
+    font-size: 16px;
+    text-align: left;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 250px auto;
+    grid-gap: 10px;
+    /*background-color: #2196F3;*/
+    padding: 10px;
+    grid-column-end: 2;
+}
+#submit-btn{
+    text-align: center;
+    color: #303030;
+    visibility: visible;
+    border: 100px;
+    background-color: #ddd;
+    height: 30px;
+    width: 120px;
+    /*margin-top: 50px;*/
+}
+
+.dropdown {
+    /*position: relative;*/
+    /*top: 50%;*/
+    width: 25%;
+    height: 100%;
+    /*background-color: rgba(187, 184, 184, 0.300);*/
+    border: 1px solid rgb(146, 146, 146);
+    /*border-radius: 5px;*/
+    padding: 5px 10px;
+    margin: 1px 0px;
+    font-size: 10px;
+}

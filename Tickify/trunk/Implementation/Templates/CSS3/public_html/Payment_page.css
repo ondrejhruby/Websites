@@ -1,0 +1,123 @@
+/* 
+    Created on : 31/10/2018, 02:20:14 PM
+    Author     : Miguel - 3728005 - TIPC_Miguel {@code 421965@student.fontys.nl}
+*/
+*{
+    margin: 0 auto 0 auto ;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font: 15px helvetica;
+}
+main{
+    width: 1347px;
+    height: 760px; 
+}
+
+
+
+
+
+button{
+    background-color: #61daff;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 100px;
+    height: 35px;
+    font: helvetica;
+}
+header{
+    width: 85px;  
+    height: 85px;
+    float: left;
+    margin: 5px;
+    position: relative;
+}
+square{
+    width: 1250px;
+    height: 30px;
+    float: right;
+    position: relative;
+}
+nav{
+    width: 1250px;
+    height: 35px;
+    background-color: #61daff;
+    float: right;
+    position: relative;
+}
+#Searchbar{
+    position: absolute;
+    right: 50px;
+    top: 5px;
+    border: none;
+    height: 25px;
+    border-radius: 10px;
+}
+#Searchbar2{
+    border: 1px solid;
+    height: 25px;
+    border-radius: 10px;
+}
+#Magnifier{
+    position: absolute;
+    right: 60px;
+    top: 9px
+}
+#ShoppingCart{
+    position: absolute;
+    right: 25px;
+    top: 9px;
+}
+#Username{
+    position: absolute;
+    right: 255px;
+    top: 8px;
+}
+#Profile{
+    position: absolute;
+    right: 325px;
+    top: 7px;
+}
+
+
+
+
+
+article{
+    width: 1347px;  
+    height: 580px;
+}
+section{
+    background-color: white;
+    opacity: 1;
+    position: relative;
+    width: 64%;  
+    height: 550px;
+    top: -98%;
+    left: 1%;
+    z-index: 2;
+    line-height: 44px;
+    margin: 0;
+}
+aside{
+    background-color: white;
+    opacity: 1;
+    position: relative;
+    width: 33%;  
+    height: 550px;
+    top: -193%;
+    left: 66%;
+    z-index: 2;
+    line-height: 49px;
+    margin: 0;
+}
+footer{
+    width: 1347px;
+    height: 85px;
+}
+

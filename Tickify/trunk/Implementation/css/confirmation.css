@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 29, 2018, 4:38:52 PM
+    Author     : Ondra Hruby - 3672948 - TIPC_hruby <o.hruby@student.fontys.nl>
+*/
+
+
+* {
+    margin: 0 auto 0 auto;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font: 15px helvetica;
+    text-align: center; 
+}
+
+main {
+    width: 1347px;
+    height: 760px;   
+}
+
+button{
+    background-color: #61daff;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 100px;
+    height: 35px;
+    font: helvetica;
+    cursor: pointer;
+}
+header{
+    width: 85px;  
+    height: 85px;
+    float: left;
+    margin: 5px;
+    position: relative;
+}
+
+table, th, td {
+   border: 1px solid black;
+   
+}
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  
+
+nav {
+    width: 960px;
+    height: 40px;
+    background-color: #54c8e5;
+    line-height: 40px; 
+}
+
+footer {
+    width: 1347px;
+    height: 85px;
+}
+        
+        

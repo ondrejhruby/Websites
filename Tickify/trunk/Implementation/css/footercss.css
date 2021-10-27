@@ -1,0 +1,64 @@
+footer{
+    background: #61daff;
+    font: 12pt Georgia;
+    color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+  }
+  
+  a{
+    color: #f2f2f2;
+    text-decoration: none;
+  }
+  
+  #footer{
+    margin-bottom: -150px;
+    clear: both;
+  }
+    
+  .lookWrap{
+    position: relative; 
+    background-color: #61daff;
+    float: left;
+    width: 100%;
+  }
+  
+  #look{
+    margin: auto;
+    width: 701px;
+  }
+  
+  .section{
+    overflow: hidden;
+    float: left;
+    display: inline;
+    width: 200px;
+    margin: 0 15px 15px 0;
+    font: 10pt verdana;
+    line-height: 1.6em;
+  }
+  
+  .section h3{
+    font-weight: normal;
+    font: 12pt Georgia;
+    text-transform: uppercase;
+    color: #f2f2f2;
+  }
+  
+  .section a{
+    display: block;
+  }
+  
+  .legality{
+    background-color: #f3f3f3;
+    color: black;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    clear: both;
+    font: 10pt verdana;
+    line-height: 2em;
+    padding: 25px 0 10px 0;
+  }

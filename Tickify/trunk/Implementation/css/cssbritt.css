@@ -1,0 +1,95 @@
+
+/* 
+    Created on : 25-okt-2018, 13:05:33
+    Author     : Britt Raafs - 3577341 - TIPA_brittraafs {@code b.raafs@fontys.nl}
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 960px;
+    background-color: #eff1f4;
+    margin: 0 auto;
+}
+
+article {
+    background-color: #eff1f4;
+    width: 750px;
+    float:right;
+}
+
+.top_margin {
+    margin: 20px 0px;
+}
+
+aside {
+    background-color: #eff1f4;
+    display: block;
+    float: left;
+    width: 210px;
+    
+}
+
+section {
+    background-color: #eff1f4;
+}
+
+input {
+    margin: 0 5px;
+}
+
+
+.grid-container_event {
+    display: grid;
+    grid-template-columns: 190px 400px 140px;
+    grid-template-rows: 70px auto;
+    background-color: #eff1f4;
+    border-bottom: 1px solid black;
+    
+   
+    
+}
+
+.eventpic_griditem {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 10px;
+    
+}
+
+.event_griditem {
+     padding: 20px;
+     color: #303030;
+}
+
+.event_gridbutton {
+    padding: 0px;
+    padding-top: 10px;
+   
+}
+.article_button{
+    color: #000000;
+    background-color: #5FCDFF;
+    display: block;
+    width: 100px;
+    height: 48px;
+    text-decoration: none;
+    border: 0;
+    font: 12pt Helvetica;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+.aritcle_button:hover {
+    background-color: #efefef;
+}
+h3 a{
+    color: #000000;
+    /*background-color: #303030;*/
+
+}

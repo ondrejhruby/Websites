@@ -1,0 +1,256 @@
+/* 
+    Created on : 25.10.2018, 14:34:49
+    Author     : Jonas Terschlüsen - 3743918 - TIPB_jonasterschlüsen {@code 423121@student.fontys.nl}
+*/
+
+* {
+    margin:  0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font: 14px Arial;
+    text-align: center;
+    color: #262626;
+}
+main {
+    width: 960px;
+    height: auto;
+    margin: 5px auto 5px auto; /* same as "margin: 0 auto;" */
+    background-color: #eff1f4;
+    /*padding: 30px;*/
+}
+button{
+    /*background-color: #61daff;*/
+    border: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 100px;
+    height: 35px;
+    font: 16pt Helvetica;
+}
+
+.commitBt{
+    float: right;
+    background-color: #61daff; /* Green */
+    border: none;
+    color: white;
+    /*padding: 12px 12px;*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 2px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.commit {
+    background-color: white;
+    color: black;
+    border: 2px solid #61daff;
+}
+
+.commit:hover {
+    background-color: #61daff;
+    color: white;
+}
+#review_btn_container{
+    height: 40px;
+}
+.left{
+    float: left;
+    padding: 10px;
+}
+/*footer{
+    width: 1347px;
+    height: 85px;
+}*/
+/*#Searchbar{*/
+    /*position: absolute;*/
+    /*right: 50px;*/
+    /*top: 5px;*/
+    /*border: none;*/
+    /*height: 25px;*/
+    /*border-radius: 10px;*/
+/*}*/
+#Magnifier{
+    position: absolute;
+    right: 60px;
+    top: 9px
+}
+#ShoppingCart{
+    position: absolute;
+    right: 25px;
+    top: 9px;
+}
+#Username{
+    position: absolute;
+    right: 255px;
+    top: 8px;
+}
+#Profile{
+    position: absolute;
+    right: 320px;
+    top: 7px;
+}
+
+#event {
+    height: auto;
+    width: 960px;
+    /*background-color: black;*/
+    text-align: center;
+    margin: 20px 0px;
+}
+#information {
+    float: left;
+    height: 310px;
+    width: 470px;
+    background-color: #5fdcfc;
+    line-height: 44px; 
+    text-align: left;
+    margin-left: 5px;
+}
+#categories {
+    float: right;
+    height: 309px;
+    width: 470px;
+    background-color: #5fdcfc;
+    line-height: 44px; 
+    text-align: left;
+    align-content: center;
+    overflow: auto;
+    margin-right: 5px;
+}
+#description {
+    clear: both;
+    height: auto;
+    width: 950px;
+    background-color: #5fdcfc;
+    margin: 350px 0px 0px 0px;
+    text-align: left;
+}
+#review {
+    clear: both;
+    height: auto;
+    width: 950px;
+    background-color: #5fdcfc;
+    margin: 20px 0px 50px 0px;
+    min-height: 90px;
+    /*overflow: scroll;*/
+}
+#content{
+    background-color: white;
+    opacity: 0.5;
+    position: relative;
+    width: 50%;
+    height: 400px;
+    top: -85%;
+    left: 0%;
+    z-index: 2;
+}
+#review_alt_text{
+    color: black;
+}
+
+
+/* Input */
+
+input[type=number] {
+    width: 100%;
+    height: 30px;
+    padding: 3px 7px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    float: right;
+    text-align: center;
+}
+
+/* Grids */
+
+.grid-item {
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    /*background-color: #2196F3;*/
+    padding: 10px;
+    grid-column-end: 2;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    margin: 0px 5px;
+}
+.grid-container > div {
+    /*background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;*/
+    text-align: center;
+    font-size: 16px;
+}
+
+/* information grid */
+
+.grid-item-info{
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+    text-align: left;
+    font-size: 16px;
+    padding: 2px;
+}
+.grid-container-info {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 3px;
+    /*background-color: #2196F3;*/
+    padding: 5px;
+    grid-column-end: 2;
+}
+.grid-container-info > div {
+    /*background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;*/
+    text-align: left;
+    font-size: 16px;
+}
+/* Review grid */
+
+.grid-item-review{
+    background-color: rgba(255, 255, 255, 0.8);
+    /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+    text-align: center;
+    font-size: 16px;
+}
+.grid-item-review-left{
+    background-color: rgba(255, 255, 255, 0.8);
+    /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+    text-align: left;
+    font-size: 16px;
+}
+.grid-item-review-text{
+    background-color: rgba(255, 255, 255, 0.8);
+    /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+    text-align: left;
+    font-size: 12px;
+    grid-column: 1 / span 3;
+}
+.grid-container-review {
+    display: grid;
+    grid-template-columns: auto 200px 200px;
+    grid-gap: 3px;
+    /*background-color: #2196F3;*/
+    padding: 20px;
+    grid-column-end: 2;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    margin: 5px;
+}
+.grid-container-review > div {
+    /*background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;*/
+}

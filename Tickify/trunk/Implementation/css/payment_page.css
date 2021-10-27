@@ -1,0 +1,111 @@
+/* 
+    Created on : 31/10/2018, 02:20:14 PM
+    Author     : Miguel - 3728005 - TIPC_Miguel {@code 421965@student.fontys.nl}
+*/
+*{
+    margin: 0 auto 0 auto ;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font: 15px helvetica;
+}
+main{
+    width: 960px;
+    height: 100%; 
+}
+
+#Searchbar2{
+    border: 1px solid;
+    height: 25px;
+    border-radius: 10px;
+     
+}
+.background{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+article{
+    width: 960px;
+    height: 580px;
+/*    background-size: cover;*/
+}
+section{
+    background-color: white;
+    opacity: 1;
+    position: relative;
+    width: 50%;  
+    min-height: 550px;
+    top: -98%;
+    left: -24%;
+    z-index: 2;
+    line-height: 44px;
+}
+aside{
+    background-color: white;
+    opacity: 1;
+    position: relative;
+    width: 46%;  
+    min-height: 550px;
+    top: -193%;
+    left: 25%;
+    z-index: 2;
+    line-height: 49px;
+}
+#cvv{
+    position: absolute;
+    width: 70px;
+    top: 435px;
+    left: 400px;
+}
+#cvv_explained{
+    position: absolute;
+    width: 200px;
+    top: 400px;
+    left: 550px;
+}
+p{
+    margin-bottom: 0;
+    margin-top: 0;
+    text-indent: 2.5em;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    background-size: cover;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    /*background-color: #2196F3;*/
+    padding: 10px;
+    /*grid-column-end: 2;*/
+   
+}
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    background-attachment: scroll;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+
+
+/*
+footer{
+    width: 960px;
+    height: 85px;
+}*/
+

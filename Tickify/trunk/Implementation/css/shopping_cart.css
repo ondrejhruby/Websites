@@ -1,0 +1,137 @@
+
+/* 
+    Created on : 25/10/2018, 01:27:43 PM
+    Author     : CamilaMata
+*/
+*{
+    margin: 0 auto 0 auto ;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font: 15px helvetica;
+}
+main{
+    width: 960px;
+    height: auto;
+    background-image: url("../img/3.jpg");
+}
+
+aside{
+    float: right;
+    background-color: white;
+    opacity: 1;
+    width: 33%;  
+    height: 550px;
+    z-index: 2;
+    line-height: 49px;
+    margin: 0;
+    margin-top: 20px;
+    color: gray;
+    text-align: center;
+    padding-right: 10px;
+}
+
+section{
+    float: left;
+    background-color: white;
+    opacity: 1;
+    width: 64%;  
+    height: auto;
+    top: -98%;
+    z-index: 2;
+    line-height: 44px;
+    margin-top: 20px;
+    color: white;
+    padding-left: 10px
+}
+/*.col-container {
+    display: table;
+    width: 100%;
+}.col {
+    display: table-cell;
+    padding: 16px;
+    background: #61daff;
+}.col2 {
+    display: table-cell;
+    padding: 16px;
+    color: gray;
+}.col3 {
+    display: table-cell;
+    padding: 16px;
+    background: #61daff;
+}.col4{
+    display: table-cell;
+    padding: 16px;
+    color: gray;
+}.delete{
+    display: table-cell;
+    padding: 16px;
+    background: #61daff; 
+}*/
+h1{
+    border-bottom: 1px dashed black;
+}
+
+
+.paynow{
+    background-color: #f44336; 
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    background: #da190b;
+    width: 50%;
+    cursor: pointer;
+}
+footer{
+    width: 1347px;
+    height: 85px;
+}
+
+/*Grid Layout*/
+
+.grid-item1 {
+    background-color: #61daff;
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    width: 110px;
+    border-bottom: 1px dashed #666;
+}
+
+.grid-item2 {
+    background-color: rgb(243, 243, 243);
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    width: 120px;
+    border-bottom: 1px dashed #666;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;/
+    column-gap: 0;
+}
+.grid-container > div {
+    text-align: center;
+    font-size: 16px;
+    column-gap: 0;
+    gap: 0;
+}
+
+.bold{
+    font-weight: bold;
+}
+.error{
+    font-size: 14px;
+    color: red;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
